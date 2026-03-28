@@ -10,18 +10,19 @@ Una aplicación web sencilla y mágica diseñada para niños. Permite interactua
 - **Protección Antitravesuras**: Bloquea las teclas de función (F1-F12, excepto F11 para salir) y otras combinaciones para evitar cierres accidentales.
 - **Efectos de Sonido**: Sonidos de "pop" generados dinámicamente cada vez que aparece un emoji.
 
-## 🛠️ Cómo ejecutarla
+## 🛠️ Cómo ejecutarla (Rápido y Fácil) 🚀
 
-**Importante**: Para que la magia funcione, necesitas tener los **3 archivos** en la misma carpeta:
-1.  `index.html` (La estructura)
-2.  `style.css` (El diseño y colores)
-3.  `script.js` (La inteligencia y movimiento)
+La forma más sencilla de disfrutar de la magia es descargar el paquete ya preparado:
 
-### Opción 1: Abrir el archivo
-Copia los 3 archivos a una carpeta en tu ordenador y haz doble clic en `index.html` para abrirlo en tu navegador favorito.
+1.  **Descarga el ZIP** desde la versión oficial: [**magia-emojis v1.0.0**](https://github.com/ctagadev/magia-de-emojis/releases/tag/v1.0.0)
+2.  Descomprímelo en una carpeta de tu ordenador.
+3.  Haz doble clic en `index.html`.
+4.  ¡Pulsa **F11** para disfrutar a pantalla completa!
 
-### Opción 2: Usando un servidor local (Desarrollo)
-Si tienes Node.js instalado, puedes ejecutar:
+---
+
+### Opción para Desarrolladores (Servidor local)
+Si tienes Node.js instalado y quieres trastear con el código:
 
 ```bash
 npm run dev
