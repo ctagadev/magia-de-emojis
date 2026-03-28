@@ -17,7 +17,7 @@ La forma más sencilla de disfrutar de la magia es descargar el paquete ya prepa
 1.  **Descarga el ZIP** desde la versión oficial: [**magia-emojis v1.0.0**](https://github.com/ctagadev/magia-de-emojis/releases/tag/v1.0.0)
 2.  Descomprímelo en una carpeta de tu ordenador.
 3.  Haz doble clic en `index.html`.
-4.  ¡Pulsa **F11** para disfrutar a pantalla completa!
+4.  ¡Pulsa el botón **"¡Empezar Fiesta! 🎉"** para entrar a pantalla completa y que empiece la magia! ✨
 
 ---
 
