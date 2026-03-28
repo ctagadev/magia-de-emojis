@@ -1,0 +1,12 @@
+{
+  "name": "emoji-magic",
+  "version": "1.0.0",
+  "description": "App mágica de emojis para niños",
+  "scripts": {
+    "dev": "npx -y serve .",
+    "start": "npx -y serve ."
+  },
+  "keywords": [],
+  "author": "Antigravity",
+  "license": "MIT"
+}
