@@ -7,10 +7,11 @@ const emojiContainer = document.getElementById('emoji-container');
 // Configuration
 const starsCount = 400;
 const repulsionRadius = 150;
-const repulsionForce = 0.5;
+const maxEmojis = 50; // Limiting to protect mobile performance
 const stars = [];
 let mouseX = -1000;
 let mouseY = -1000;
+let resizeTimer;
 
 // Emojis lists (Food, Fruits, Animals, Nature, Flags)
 const emojiList = [
@@ -39,15 +40,21 @@ function initStars() {
     }
 }
 
-// Adjust canvas size
+// Adjust canvas size with debounce
 function resize() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    initStars();
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        initStars();
+    }, 250);
 }
 
 window.addEventListener('resize', resize);
-resize();
+// Initial sync call
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+initStars();
 
 // Mouse handling
 window.addEventListener('mousemove', (e) => {
@@ -127,10 +134,22 @@ window.addEventListener('keydown', (e) => {
 });
 
 function spawnEmoji() {
+    // Performance guard: prevent DOM overflow
+    if (emojiContainer.children.length > maxEmojis) return;
+
     playPopSound();
     const emoji = document.createElement('div');
     emoji.className = 'emoji';
     emoji.textContent = emojiList[Math.floor(Math.random() * emojiList.length)];
+    
+    // Random direction variables for CSS
+    const randomX = (Math.random() - 0.5) * 400; // -200 to 200
+    const randomY = -(Math.random() * 300 + 100); // -100 to -400 (upwards explosion)
+    const randomRot = (Math.random() - 0.5) * 180; // random spin
+    
+    emoji.style.setProperty('--random-x', `${randomX}px`);
+    emoji.style.setProperty('--random-y', `${randomY}px`);
+    emoji.style.setProperty('--random-rot', `${randomRot}deg`);
     
     // Random position
     const x = Math.random() * window.innerWidth;

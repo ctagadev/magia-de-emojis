@@ -5,16 +5,18 @@ Una aplicación web sencilla y mágica diseñada para niños. Permite interactua
 ## 🚀 Características
 
 - **Estrellas Interactivas**: Un fondo de estrellas que parpadean y huyen del ratón (efecto de repulsión).
-- **Explosión de Emojis**: Al pulsar cualquier tecla, aparecen emojis aleatorios de animales, comida y naturaleza con animaciones y efectos de sonido.
+- **Explosión Dinámica**: Los emojis ahora salen disparados en todas direcciones y rotaciones.
 - **Modo Pantalla Completa**: Un botón grande y fácil de usar para entrar en modo inmersivo.
-- **Protección Antitravesuras**: Bloquea las teclas de función (F1-F12, excepto F11 para salir) y otras combinaciones para evitar cierres accidentales.
-- **Efectos de Sonido**: Sonidos de "pop" generados dinámicamente cada vez que aparece un emoji.
+- **Rendimiento Optimizado**: Protege tu navegador con un límite de 50 emojis activos, ideal para que los peques aporreen el teclado sin lag.
+- **Protección Antitravesuras**: Bloquea las teclas de función (F1-F12, excepto F11 para salir) y las recargas accidentales.
+- **Adaptativo y Estable**: Redimensionado de estrellas inteligente (debouncing) para mayor estabilidad.
+- **Efectos de Sonido**: Sonidos de "pop" y accesibilidad (`aria-live`) integrada.
 
 ## 🛠️ Cómo ejecutarla (Rápido y Fácil) 🚀
 
 La forma más sencilla de disfrutar de la magia es descargar el paquete ya preparado:
 
-1.  **Descarga el ZIP** desde la versión oficial: [**magia-emojis v1.0.0**](https://github.com/ctagadev/magia-de-emojis/releases/tag/v1.0.0)
+1.  **Descarga el ZIP** desde la versión oficial: [**magia-emojis v1.1.0**](https://github.com/ctagadev/magia-de-emojis/releases/tag/v1.1.0)
 2.  Descomprímelo en una carpeta de tu ordenador.
 3.  Haz doble clic en `index.html`.
 4.  ¡Pulsa el botón **"¡Empezar Fiesta! 🎉"** para entrar a pantalla completa y que empiece la magia! ✨

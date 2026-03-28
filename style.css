@@ -139,7 +139,10 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translate(-50%, calc(-50% - 200px)) scale(1) rotate(20deg);
+    transform: translate(
+      calc(-50% + var(--random-x, 0px)), 
+      calc(-50% + var(--random-y, -200px))
+    ) scale(1) rotate(var(--random-rot, 20deg));
     opacity: 0;
   }
 }
