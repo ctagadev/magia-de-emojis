@@ -1,5 +1,19 @@
 # Historial de Versiones (Changelog) - Magia de Emojis ✨🦁🍎
 
+## [v1.2.2] - 2026-03-30 🪄 (Arreglo Crítico: Botón de Inicio Táctil)
+
+¡La magia ya no tiene barreras! Esta versión rápida corrige un problema que impedía pulsar el botón de inicio en dispositivos móviles tras la implementación del soporte táctil.
+
+### ✨ Arreglos
+- **Arreglo del Botón "Empezar Fiesta" 🪄**: Solucionado el bug donde el interceptor de eventos táctiles bloqueaba el botón de inicio en tablets y móviles. ¡Ahora ya puedes entrar a la fiesta a la primera!
+
+## [v1.2.1] - 2026-03-30 📱 (Mejoras Táctiles)
+
+Pequeña actualización de pulido para dispositivos móviles.
+
+### ✨ Arreglos
+- **Corrección de "Doble Emoji" 🛠️**: Solucionado el problema donde algunos dispositivos táctiles generaban dos emojis por cada toque debido a eventos duplicados del navegador.
+
 ## [v1.2.0] - 2026-03-30 📱 (Soporte Táctil e Interacción Híbrida)
 
 ¡La magia llega a las tablets y pantallas táctiles! Esta versión convierte la app en una experiencia sensorial completa, permitiendo usar las manos directamente sobre el cristal.
