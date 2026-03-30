@@ -1,5 +1,14 @@
 # Historial de Versiones (Changelog) - Magia de Emojis ✨🦁🍎
 
+## [v1.2.5] - 2026-03-30 🏷️ (Indicador de Versión)
+
+Mejora visual para el seguimiento del despliegue.
+
+### ✨ Nuevas Características
+- **Etiqueta de Versión en UI 🏷️**: Añadido un pequeño indicador de versión (v1.2.5) en la pantalla de inicio para confirmar qué versión se está ejecutando desde GitHub. ✨
+
+---
+
 ## [v1.2.4] - 2026-03-30 🪄 (Arreglo Multi-Touch)
 
 Optimización de la lógica táctil para una experiencia más fluida. ✨📱

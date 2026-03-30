@@ -21,7 +21,7 @@ Una aplicación web sencilla y mágica diseñada para niños. Permite interactua
 ### Opción 2: Descarga el ZIP oficial
 Si prefieres tenerlo en tu ordenador para jugar sin internet:
 
-1.  **Descarga el ZIP** desde la versión oficial: [**magia-emojis v1.2.4**](https://github.com/ctagadev/magia-de-emojis/releases/tag/v1.2.4)
+1.  **Descarga el ZIP** desde la versión oficial: [**magia-emojis v1.2.5**](https://github.com/ctagadev/magia-de-emojis/releases/tag/v1.2.5)
 2.  Descomprímelo en una carpeta de tu ordenador.
 3.  Haz doble clic en `index.html`.
 4.  ¡Pulsa el botón **"¡Empezar Fiesta! 🎉"** para entrar a pantalla completa y que empiece la magia! ✨
