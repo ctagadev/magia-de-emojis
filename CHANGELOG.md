@@ -1,5 +1,14 @@
 # Historial de Versiones (Changelog) - Magia de Emojis ✨🦁🍎
 
+## [v1.2.3] - 2026-03-30 🪄 (Corrección de Emojis)
+
+Pequeña corrección para asegurar que la "lluvia de magia" sea perfecta y sin texto extraño. ✨🧈
+
+### ✨ Arreglos
+- **Corrección de Emojis Literales 🧈**: Cambiado el texto 'バター' (mantequilla) por su icono correspondiente `🧈`. ¡La magia solo habla en emojis!
+
+---
+
 ## [v1.2.2] - 2026-03-30 🪄 (Arreglo Crítico: Botón de Inicio Táctil)
 
 ¡La magia ya no tiene barreras! Esta versión rápida corrige un problema que impedía pulsar el botón de inicio en dispositivos móviles tras la implementación del soporte táctil.
