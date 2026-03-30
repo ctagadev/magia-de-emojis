@@ -152,6 +152,10 @@ function spawnEmoji(targetX, targetY) {
 
 // --- SOPORTE TÁCTIL ---
 window.addEventListener('touchstart', (e) => {
+    // Si estamos tocando el botón de inicio o la tarjeta de bienvenida, 
+    // no prevenimos el comportamiento por defecto para dejar que el clic funcione.
+    if (e.target.closest('#welcome-card')) return;
+
     // Evita que el navegador genere un evento de ratón duplicado
     e.preventDefault();
     
