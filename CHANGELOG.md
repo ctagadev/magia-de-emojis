@@ -1,5 +1,24 @@
 # Historial de Versiones (Changelog) - Magia de Emojis ✨🦁🍎
 
+## [v1.2.0] - 2026-03-30 📱 (Soporte Táctil e Interacción Híbrida)
+
+¡La magia llega a las tablets y pantallas táctiles! Esta versión convierte la app en una experiencia sensorial completa, permitiendo usar las manos directamente sobre el cristal.
+
+### ✨ Nuevas Características
+- **Soporte Multi-Touch**: ¡Usa todos los dedos! Los emojis ahora brotan exactamente de donde tocas la pantalla. Si usas las dos manos, crearás una lluvia de emojis masiva.
+- **Explosión 360° "Fuegos Artificiales"**: Los emojis ya no solo flotan hacia arriba. Ahora salen disparados en todas direcciones (360 grados), creando un efecto de explosión circular mágica.
+- **Interacción Híbrida**: El teclado sigue funcionando para lanzar emojis aleatorios, mientras que el ratón o el dedo permiten lanzarlos con puntería.
+- **Bloqueo Táctil Pro**: Añadido `touch-action: none` para evitar que el navegador haga zoom o mueva la pantalla mientras el niño juega. Todo se queda en su sitio.
+- **Mejora del "Radar"**: Aumentado el radio de repulsión de las estrellas (`180px`) para que el efecto sea más visible bajo los dedos.
+- **Limpieza Automática**: Cuando dejas de tocar o el ratón sale de la pantalla, las estrellas vuelven suavemente a su posición natural.
+
+### 🔧 Mejoras Técnicas
+- Refactorización de la función `spawnEmoji` para soportar coordenadas externas.
+- Implementación de listeners pasivos para mayor rendimiento en scroll-blocking.
+- Corrección de bugs en la detección de teclas de sistema.
+
+---
+
 ## [v1.1.0] - 2026-03-28 🚀 (Mejoras de Rendimiento y Dinamismo)
 
 ¡La magia ahora es más robusta y visualmente espectacular! Esta versión se enfoca en optimizar la experiencia para que los peques puedan interactuar de forma intensa sin que el navegador sufra.
