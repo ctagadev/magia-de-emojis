@@ -159,8 +159,8 @@ window.addEventListener('touchstart', (e) => {
     // Evita que el navegador genere un evento de ratón duplicado
     e.preventDefault();
     
-    // Para cada dedo que toque la pantalla...
-    Array.from(e.touches).forEach(touch => {
+    // Para cada NUEVO dedo que toque la pantalla...
+    Array.from(e.changedTouches).forEach(touch => {
         // Actualizamos posición para asustar estrellas
         mouseX = touch.clientX;
         mouseY = touch.clientY;

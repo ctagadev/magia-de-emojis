@@ -1,5 +1,14 @@
 # Historial de Versiones (Changelog) - Magia de Emojis ✨🦁🍎
 
+## [v1.2.4] - 2026-03-30 🪄 (Arreglo Multi-Touch)
+
+Optimización de la lógica táctil para una experiencia más fluida. ✨📱
+
+### ✨ Arreglos
+- **Corrección de Spawn Exponencial 🪄**: Cambiada la lógica de detección para que solo aparezcan emojis de los dedos que *acaban* de tocar la pantalla (`changedTouches`). Esto evita que al poner 5 dedos se disparen 25 emojis a la vez por error. ¡Ahora es mucho más preciso!
+
+---
+
 ## [v1.2.3] - 2026-03-30 🪄 (Corrección de Emojis)
 
 Pequeña corrección para asegurar que la "lluvia de magia" sea perfecta y sin texto extraño. ✨🧈
